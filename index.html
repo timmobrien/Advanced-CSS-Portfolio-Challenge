@@ -15,20 +15,66 @@
 
 <body>
     
-    <header class="header">
-        <h1 class="header-title secondary ml-1 pa-2"> Tim O'Brien </h1>
-        <ul class="navbar">
-            <li> About Me </li>
-            <li> Projects </li>
-            <li> Contact </li>
-        </ul>
+    <header class="header wrap">
+        <h1 class="header-title secondary"> Tim O'Brien </h1>
+        <nav>
+            <ul class="nav__links">    
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Downloads</a></li>
+            </ul>
+        </nav>
+        <button class="contact-button">Contact Me</button>
     </header>
 
     <section class="hero-image">
-        <h1 class="hero-header pa-1"> About Me </h1>
-        <div class="headshot"></div>
-        <p class="hero-text">I am a 22 year old aspiring software developer from Perth, Australia. </p>
+        <div class="hero-container">
+            <h1 class="hero-header secondary"> About Me </h1>
+            <div class="headshot my-2">
+                <img src="./Assets/images/headshot.jpg" alt="Picture of me">
+            </div>
+            <p class="hero-text centre-text">I am a 22 year old aspiring software developer from Perth, Australia. 
+                After completing my commerce degree, I decided I wanted to seek out something different by pursuing the world of coding.
+            </p>
+            
+        </div>
     </section>
 
+    <section>
+
+        <h1 class="project-header secondary mt-3"> Projects </h1>
+
+        <section class = "projects-container flex flex-wrap ml-1 mt-1">
+            <div class = "headline-card">
+                <h2 class="headline-title bold secondary pa-1">Project 1 Placeholder</h2>
+            </div>
+            <div class = "project-card" id="image-genesis">
+                <h2 class="project-title bold secondary pa-1">Genesis</h2>
+            </div>
+            <div class = "project-card" id="image-hue">
+                <h2 class="project-title bold secondary pa-1">Philips Hue API</h2>
+            </div>
+        </section>
+
+    </section>
+
+    <section>
+        <section class="downloads-container"> 
+            <img src="./Assets/images/bike.jpg">
+        </section>
+    </section>
+
+    <footer>
+        <h1 class="centre-text white mb-5 mt-3">Designed & Developed by Tim O'Brien</h1>
+    </footer>
+    
 </body>
 </html>
+
+
+
+<!-- To do list
+
+Add aditional job pane
+Add functionality to contact me button
+Add resources to download-->
