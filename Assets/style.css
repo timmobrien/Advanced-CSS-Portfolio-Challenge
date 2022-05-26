@@ -310,10 +310,3 @@
     margin-top: 10rem;
     opacity: 80%;
 }
-
-
-/* testing new flex container */
-
-@media screen and (max-width:700px) {
-    .products-container
-}
