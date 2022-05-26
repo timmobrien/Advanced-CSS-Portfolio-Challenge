@@ -91,7 +91,7 @@
     margin-left: 50%;
     transform: translate(-50%);
 }
-
+/* headshot image sizing */
 .headshot img {
     max-height: 165px;
     max-width: 200px;
@@ -118,14 +118,14 @@
     background-color: var(--color-primary);   
     padding: 3px;
 }
-
+/* Header of projects section */
 .project-header {
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
 }
-
-.products-container {
+/* Container */
+.projects-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -135,19 +135,21 @@
     margin-left: 50%;
     transform: translate(-50%);
 }
-
-.products-container div {
+/* Flex properties for Bike */
+.projects-container div {
     height:90%;
     flex: 0 0 45%;
     margin-right: 1rem;
     cursor: pointer;
 }
 
-.products-container div:hover {
+/* hover neon glow */
+.projects-container div:hover {
     box-shadow: 1px 1px 10px var(--color-secondary);
 }
 
-.products-container img {
+/* Image covering container */
+.projects-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -156,19 +158,21 @@
     
 }
 
-.products-container-2 {
+/* Projects on right side of flexbox */
+.projects-container-2 {
     height: 90%;
     flex: 0 0 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-.products-container-2 div {
+/* flex properties */
+.projects-container-2 div {
     flex: 0 0 22%;
 }
 
-.products-container-2 img {
+/* Image covering container */
+.projects-container-2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -176,6 +180,7 @@
     border-radius: 10px;
 }
 
+/* header for motorbike tile */
 #bike-header {
     background-color: var(--color-primary);
     font-size: 20px;
@@ -189,6 +194,7 @@
     top: -10%;
 }
 
+/* headers for tiles */
 #project-tile-header {
     background-color: var(--color-primary);
     font-size: 16px;
@@ -202,6 +208,7 @@
     top: -25%;
 }
 
+/* header with different positional properties */
 #final-header {
     background-color: var(--color-primary);
     font-size: 16px;
@@ -215,6 +222,7 @@
     top: -15%;
 }
 
+/* Download & Links section header */
 .downloads-title {
     background-color: var(--color-primary);
     font-size: 20px;
@@ -228,6 +236,7 @@
     transform: translate(-50%, -100%);
 }
 
+/* Container for links & downloads */
 .downloads-container {
     width: 800px;
     max-height: 480px;
@@ -238,21 +247,25 @@
     margin-left: 50%;
 }
 
+/* Glow property on hover */
 .downloads-container:hover{
     box-shadow: 2px 2px 10px var(--color-secondary);
 }
 
+/* spacing & font properties for download section */
 .downloads-text {
     font-size: 18px;
     line-height: 5rem;
     display: block;
 }
 
+/* glow when hovering over links */
 .downloads-text:hover {
     text-shadow: 1px 1px 5px var(--color-secondary);
 
 }
 
+/* Popup form, hidden by default */
 .form-popup {
     display: none;
     position: fixed;
@@ -262,12 +275,14 @@
     z-index: 9;
 }
 
+/* container for popup form */
 .form-container {
     max-width: 400px;
     padding: 10px;
     background-color: var(--color-primary);
 }
 
+/* properties for text input boxes */
 .form-container input[type=text], .form-container textarea {
     width: 100%;
     padding: 15px;
@@ -276,6 +291,7 @@
     background: var(--color-third);
 }
 
+/* submit button for form */
 .form-container .btn {
     border-radius: 10px;
     background-color: var(--color-primary);
@@ -288,6 +304,7 @@
     align-items: center;
 }
 
+/* Close the form */
 .close-button {
     float: right;
     border-radius: 50%;
@@ -301,6 +318,7 @@
     cursor: pointer;
 }
 
+/* Footer position & styling */
 #footer {
     position: fixed;
     bottom: 0px;
