@@ -15,4 +15,4 @@ The primary issue I faced was with the formatting in smaller viewports. I will h
 
 ## Link
 
-[https://timmobrien.github.io/Advanced-CSS-Personal-Portfolio]
+[https://timmobrien.github.io/CSS-Personal-Portfolio/]
