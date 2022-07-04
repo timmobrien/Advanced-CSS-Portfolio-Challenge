@@ -27,6 +27,7 @@
         <button class="contact-button" onclick="openForm()">Contact Me</button>
     </header>
 
+    <!-- think about responsive image sizing -->
     <section class="hero-image">
         <div class="hero-container">
             <h1 class="hero-header secondary" id="about-me"> About Me </h1>
@@ -43,10 +44,12 @@
     <h1 class="project-header centre-text secondary mt-3" id="projects"> Projects </h1>
 
     <section class="projects-container wrap">
-        <div>
-            <img src="./Assets/images/bike.jpg" alt="ducatti bike">
-            <h2 class="bold secondary pa-1" id="bike-header">Bike</h2>
-        </div>
+        <a href="https://yoko-cyer.github.io/Movie-Generator/">
+            <div>
+                <img src="./Assets/images/movie-night.png" alt="Movie Night app">
+                <h2 class="bold secondary pa-1" id="bike-header">Movie Night</h2>
+            </div>
+        </a>
         <section class="projects-container-2">
             <div class="">
                 <img src="./Assets/images/headline-project.jpg" alt="workshop desk">
@@ -102,11 +105,11 @@
 
     <script>
 
-    function openForm() {
+    openForm = () => {
       document.getElementById("myForm").style.display = "block";
     }
 
-    function closeForm() {
+    closeForm = () => {
       document.getElementById("myForm").style.display = "none";
     }
 
